@@ -16,7 +16,7 @@ import lombok.Setter;
 @Entity
 @Getter
 @Setter
-@Table(name="tb_product")
+@Table(name="tb_produto")
 public class ProductModel implements Serializable {
 	
 private static final long serialVersionUID = 1L;
@@ -25,6 +25,6 @@ private static final long serialVersionUID = 1L;
 private UUID idProduct;
 @Column(name = "nome")
 private String nome;
-@Column(name = "value")
-private BigDecimal value;
+@Column(name = "valor")
+private BigDecimal valor;
 }
